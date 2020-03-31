@@ -2,5 +2,6 @@ thingSpeakURL = 'http://api.thingspeak.com/';
 thingSpeakWriteURL = [thingSpeakURL 'update'];
 writeApiKey = 'SUY9GYAA1TMMOFVO';
 fieldName = 'field1';
-fieldValue = 50;
+fieldValue = 80;
 response = webwrite(thingSpeakWriteURL,'api_key',writeApiKey,fieldName,fieldValue)
+
